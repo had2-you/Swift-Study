@@ -2,7 +2,7 @@
 
 
 ### Part 1. 변수와 상수
-변수(var)
+- 변수(var)
 
     var a = 4           // print(a) = 4
     var b = 6           // print(b) = 6
@@ -10,7 +10,7 @@
     
 즉, 변수는 안의 값이 바뀔 수 있는 것
 
-상수(let)
+- 상수(let)
 
     let a = 3
     let b = 5 
