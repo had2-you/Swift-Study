@@ -3,10 +3,12 @@
 
 ### Part 1. 변수와 상수
 변수(var)
+
     var a = 4
     var b = 6
     
 상수(let)
+
     let 
 
 
