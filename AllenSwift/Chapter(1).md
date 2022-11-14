@@ -1,6 +1,7 @@
 
+## Part 1. 변수와 상수
 <details>
-<summary>Part 1. 변수와 상수</summary>
+<summary> </summary>
 
 __1) 변수(var)__
 ```swift
@@ -84,9 +85,9 @@ TypeAlias Name = String
 
 
 
-
+## Part 2. 기본 연산자
 <details>
-<summary>Part 2. 기본 연산자</summary>
+<summary>  </summary>
     
 __1) 비교 연산자__
 ```
@@ -117,9 +118,9 @@ __3) 연산 우선순위__
 
 
 
-
+## Part 3. 조건문
 <details>
-<summary>Part 3. 조건문</summary>
+<summary> </summary>
 
 __1) if문__  
 조건은 항상 참/거짓  
@@ -231,13 +232,10 @@ __2) Switch__
 💡 상수(변수도 가능) 바인딩은 주로 where와 함께 사용 
 </details>
 
-    
-    
-    
-    
-    
+
+## Part 4. 튜플
 <details>
-<summary>Part 4. 튜플</summary>
+<summary>  </summary>
 💡 2개 이상의 연관된 데이터를 저장하는 혼복합 타입  
 
 <br>
@@ -270,8 +268,9 @@ __2) Switch__
     
     
     
+## Part 5. 삼항 연산자
 <details>
-<summary>Part 5. 삼항 연산자</summary>
+<summary>  </summary>
 </details>
 
     
@@ -280,8 +279,9 @@ __2) Switch__
     
     
 
+## Part 6. 반복문
 <details>
-<summary>Part 6. 반복문</summary>
+<summary>  </summary>
 </details>
 
 
