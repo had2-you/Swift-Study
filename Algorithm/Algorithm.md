@@ -22,4 +22,8 @@
   ```
   
   ![image](https://user-images.githubusercontent.com/72385538/201680432-a989510d-600f-4476-a509-2a4eac94e006.png)
+<br>  
 
+```swift
+⭐️⭐️⭐️ swift의 array.sorted()는 n log n의 시간이 걸린다.
+```
