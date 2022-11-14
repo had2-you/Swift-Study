@@ -1,5 +1,6 @@
 
-## Part 1. 변수와 상수
+<details>
+<summary>Part 1. 변수와 상수</summary>
 
 __1) 변수(var)__
 ```swift
@@ -7,7 +8,7 @@ __1) 변수(var)__
     var b = 6           // print(b) = 6
     a = 3               // print(a) = 3
 ```
-즉, 변수는 안의 값이 바뀔 수 있는 것
+💡 즉, 변수는 안의 값이 바뀔 수 있는 것
 
 <br>  
 
@@ -17,7 +18,7 @@ __2) 상수(let)__
     let b = 5 
     a = b               // 오류 발생
 ```
-즉, 상수는 안의 값이 변할 수 없는 것
+💡 즉, 상수는 안의 값이 변할 수 없는 것
 
 <br>  
 
@@ -26,7 +27,7 @@ __3) 데이터타입__
     var a: Int = 4
     a = 3.14            // 오류 발생
 ```
-데이터 타입은 선언할 때 주었던 형태와 맞는 값을 변수로 사용할 수 있다.
+💡 데이터 타입은 선언할 때 주었던 형태와 맞는 값을 변수로 사용할 수 있다.
 
 <br>  
 
@@ -35,8 +36,7 @@ __4) Character와 String의 차이__
     let Str: String = ""
     let Cha: Character = " "
 ```
-String은 빈 문자열을 저장할 수 있다.
-Charater는 빈 문자열을 저장할 수 없음(공백은 가능)
+💡String은 빈 문자열을 저장할 수 있다. Charater는 빈 문자열을 저장할 수 없음(공백은 가능)
 
 <br>  
 
@@ -79,10 +79,15 @@ __8) Type Alias__
 기존에 선언되어 있거나 내가 만든 타입 등에 새로운 별칭을 붙여서 가독성을 높이는 데에 사용  
 TypeAlias Name = String
 ```
----
+</details>
 
-## Part 2. 기본 연산자
 
+
+
+
+<details>
+<summary>Part 2. 기본 연산자</summary>
+    
 __1) 비교 연산자__
 ```
 == : Euqal to operator  
@@ -106,10 +111,15 @@ __3) 연산 우선순위__
 ```
 곱셈/나눗셈 > 덧셈/뺄셈 > 비교연산자 > 논리연산자 > 할당/복합할당 연산자  
 ```
+</details>
 
----
 
-## Part 3. 조건문
+
+
+
+
+<details>
+<summary>Part 3. 조건문</summary>
 
 __1) if문__  
 조건은 항상 참/거짓  
@@ -218,12 +228,17 @@ __2) Switch__
         break
     }
 ```
-상수(변수도 가능) 바인딩은 주로 where와 함께 사용 
+💡 상수(변수도 가능) 바인딩은 주로 where와 함께 사용 
+</details>
 
----
-
-## Part 4. 튜플
-: 2개 이상의 연관된 데이터를 저장하는 혼복합 타입  
+    
+    
+    
+    
+    
+<details>
+<summary>Part 4. 튜플</summary>
+💡 2개 이상의 연관된 데이터를 저장하는 혼복합 타입  
 
 <br>
 
@@ -248,14 +263,26 @@ __2) Switch__
 
 - 튜플의 바인딩
 
+</details>
 
----
+    
+    
+    
+    
+    
+<details>
+<summary>Part 5. 삼항 연산자</summary>
+</details>
 
-## Part 5. 삼항 연산자
+    
+    
+    
+    
+    
 
----
-
-## Part 6. 반복문
+<details>
+<summary>Part 6. 반복문</summary>
+</details>
 
 
 
