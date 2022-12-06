@@ -262,6 +262,34 @@ __2) Switch__
 ```
 
 - 튜플의 바인딩
+```swift
+    var coordinate = (0, 5)
+
+    switch coordinate {
+    case(let distance, 0), (0, let distance):
+        print(“X 또는 Y축 위에 위치하며, \(distance)만큼의 거리가 떨어져 있음“)
+    
+    default:
+        print(“축 위에 있지 않음”)
+    }
+// 만약 (5, 5)좌표 위에 있을 경우, 어느 조건에도 해당하지 않기 때문에(X, Y 둘중 하나라도 0인 바인딩) default를출력한다.
+```
+
+- where
+
+```swift
+    var coordinate = (5, 0)
+		
+    switch coordinate {
+    case(let x, let y) where x == y:
+        print(“(\(x), \(y))의 좌표는 y = x 1차함수의 그래프 위에 있다.“)
+
+    case let (x, y) where x == -y:
+        print(“(\(x), \(y))의 좌표는 y = -x 1차함수의 그래프 위에 있다.“)
+
+    case let (x, y):
+        print(“(\(x), \(y))의 좌표는 y = x 또는 y = -x 그래프가 아닌 임의의 지점에 있다.“)
+```
 
 </details>
 
@@ -273,6 +301,37 @@ __2) Switch__
 ## Part 5. 삼항 연산자
 <details>
 <summary>  </summary>
+
+__1) 삼항연산자__
+```
+🔎 if문보다 조금 한정적인 형태로 사용 
+```
+
+```swift
+    var a = 10
+	
+//if문의 경우
+    if a > 0 {
+        print("1")
+    } else {
+        print("2")
+    }
+	
+//삼항연산자의 경우
+    a > 0 ? print("1") : print("2")
+	
+💡 한줄인 경우 주로 값을 대입하는(2가지 중 한가지를 선택하는 경우)에 사용
+💡 조건에 따라 선택이 두 가지인 경우, 삼항연산자를 떠올리자!!!
+```
+
+__2) 범위연산자__
+
+```swift
+    
+```
+
+	
+	
 </details>
 
     
@@ -285,7 +344,6 @@ __2) Switch__
 <details>
 <summary>  </summary>
 </details>
-
 
 
 
