@@ -323,27 +323,52 @@ __1) 삼항연산자__
 💡 한줄인 경우 주로 값을 대입하는(2가지 중 한가지를 선택하는 경우)에 사용
 💡 조건에 따라 선택이 두 가지인 경우, 삼항연산자를 떠올리자!!!
 ```
-
+<br>
+    
+    
 __2) 범위연산자__
-
-	
-```swift
-    
 ```
+﹒ 숫자의 범위를 간편하게 표시할 때 사용
+﹒ 반복문(for문), 배열, switch문에서 주로 활용
+﹒ 내림차순은 불가능(예: 12...0)
+﹒ 실수형식의 범위표기도 가능은 하지만 잘 사용하지 않음
+```
+<br>
+    
+    
+- Closed Range Operator, One-Sdied Ranges 표기
+```swift
+    let range = 1 ... 10
+    let range1 = 1...
+    let range2 = ...10
+    
+⭐️ One-Sdided의 경우 숫자와 범위연산자 붙여서 쓰기 ⭐️
+```
+- Half-Open Range Operator, One-Sided Ranges 표기
+```swift
+    let rangeH = 1 ..< 10
+    let rangeH1 = ..<10
+    
+⭐️ One-Sdided의 경우 숫자와 범위연산자 붙여서 쓰기 ⭐️
+```
+<br>
 
-	
-	
+
+__3) 패턴매칭 연산자(~=)__
+```swift
+    let range = 1...10
+    
+    range ~= 5 //5가 1부터 10사이의 범위에 들어있는가? 아닌가? 
+    //결과 값은 T or F
+```
 </details>
-
-    
-    
-    
-    
     
 
 ## Part 6. 반복문
 <details>
 <summary>  </summary>
+    
+    
 </details>
 
 
