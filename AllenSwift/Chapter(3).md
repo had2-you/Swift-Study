@@ -1,7 +1,7 @@
 
 
 
-## Part 1. 클래스와 구조체
+## 클래스와 구조체
 
 <details>
 <summary> 클래스와 구조체 기본 구조 </summary>
@@ -193,14 +193,6 @@ __5) 속성 옵셔널__
 ﹒ ===
 ﹒ !==
 ```
-## Part 2. 
-
-<details>
-<summary> </summary>
-
-
-</details>
-
 
 
 
