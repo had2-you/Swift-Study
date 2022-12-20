@@ -83,7 +83,7 @@ __3) 클래스와 구조체의 차이__
 
 
 <img width="656" alt="image" src="https://user-images.githubusercontent.com/72385538/208584800-8f272687-4f03-4795-b4ed-a708ee042982.png">
-
+<img width="656" alt="image" src="https://user-images.githubusercontent.com/72385538/208585383-c0aa9498-4ea1-4771-bd86-d3d2ecdb6cf8.png">
 
 <br>
 
@@ -156,7 +156,43 @@ init(파라미터)
 💡 self키워드는 클래스/구조체 내에서 해당 인스턴스(자기자신)을 가리킴
    인스턴스 내에서 동일한 변수/상수명을 사용할 때 가리키는 것을 명확하게 하기 위해 사용
 ```
+<br>
 
+
+__5) 속성 옵셔널__
+```swift
+    class Dog {
+        var name: String?       // 옵셔널 선언시 nil 출력
+        var weight: Int
+        
+        init(weight: Int) {     
+            self.weight = weight
+            //self.name = name
+            //옵셔널 때문에 초기화를 하지 않아도 됨
+        }
+        
+        func sit() {
+            print("\(self.name)이 앉아있습니다.")
+        }
+        
+        func layDown() {
+            print("\(self.name)이 앉아있습니다.")
+        }
+    }
+    
+    var Bori = Dog(weight: 10) //name은 nil출력, name은 초기값을 설정하지 하든 안 하든 무관
+    //if let bounding 등으로 옵셔널 벗기고 사용 
+```
+```
+💡 옵셔널 타입을 가진 변수의 경우는 반드시 초기화 값이 있을 필요는 없음 ➡️ nil로 초기화 되기 때문에
+```
+
+- 식별 연산자
+```
+🔎 두 개의 차모가 갗은 인스턴스를 가리키고 있는지를 비교하는 방법
+﹒ ===
+﹒ !==
+```
 ## Part 2. 
 
 <details>
